@@ -33,7 +33,7 @@ As an example, consider the following:
 
 .. code:: python
 
-    class MyNewClass(metaclass=Dictserializer):
+    class MyNewClass(metaclass=DictSerializer):
           x1 = 10
           x2 = 20
 
@@ -52,7 +52,7 @@ as valid parameters, while the ``__init__`` of our toy class only accepts
 
 .. code:: python
 
-   class MyNewClass(metaclass=Dictserializer):
+   class MyNewClass(metaclass=DictSerializer):
           x1 = 10
           x2 = 20
 
