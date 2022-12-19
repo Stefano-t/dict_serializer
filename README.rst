@@ -64,3 +64,12 @@ as valid parameters, while the ``__init__`` of our toy class only accepts
               final_dict["param1"] = dict_["param1"]
               return final_dict
 
+Tests
+-----
+
+To run the test, make sure to have ``pytest`` installed and run the following
+from the root directory of the project:
+
+.. code:: bash
+
+   $ python -m pytest tests
