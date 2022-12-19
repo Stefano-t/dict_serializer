@@ -56,7 +56,7 @@ def _to_dict(obj):
 
 def _from_dict(cls, dict_):
     if hasattr(cls, _PRE_DESERIALIZATION_NAME):
-        dict_ = cls._pre_deserialization(dict_)
+        dict_ = cls._pre_deserialization(cls, dict_)
     return cls(**dict_)
 
 def _pre_serialization(self, dict_):
